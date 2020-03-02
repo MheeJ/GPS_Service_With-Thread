@@ -11,7 +11,7 @@ public class ServiceThread extends Thread{
 
     public void stopForever(){
         synchronized (this) {
-            this.isRun = true;
+            this.isRun = false                                                                                                                                                                 ;
         }
     }
 
